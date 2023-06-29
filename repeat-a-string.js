@@ -3,7 +3,7 @@ function repeatStringNumTimes (str, num) {
     if (num < 0) {
    return ""; 
   }
-  let rep_str = "   ";
+  let rep_str = "";
 while (num > 0 ) {
   rep_str += str;
   num--;
